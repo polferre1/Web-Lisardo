@@ -266,6 +266,7 @@ a { color: var(--color-primary); }
   color: var(--color-text-soft);
 }
 .menu-card li:last-child { border-bottom: none; }
+.menu-price { font-weight: 800; color: var(--color-primary); white-space: nowrap; }
 .menu-note {
   margin-top: 32px;
   background: var(--color-surface);

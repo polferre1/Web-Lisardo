@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin · El Cafè d'en Lisardo</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<div class="login-screen" id="loginScreen">
+  <form class="login-card" id="loginForm">
+    <h1>☕ Panel de admin</h1>
+    <p>Introduce el token de administrador para continuar.</p>
+    <input type="password" id="tokenInput" placeholder="Admin token" autocomplete="off" required>
+    <button type="submit" class="btn">Entrar</button>
+    <p class="login-error" id="loginError"></p>
+  </form>
+</div>
+
+<div class="app" id="app" hidden>
+  <header class="app-header">
+    <h1>☕ El Cafè d'en Lisardo · Admin</h1>
+    <button class="btn btn-ghost" id="logoutBtn">Cerrar sesión</button>
+  </header>
+
+  <main class="app-main">
+    <section class="panel">
+      <h2>Extraer producto desde un link</h2>
+      <p class="hint">Pega la URL de un plato o producto (por ejemplo, de un proveedor o de tus redes sociales) y se intentarán extraer automáticamente su nombre, descripción, precio e imagen a partir de los metadatos de la página.</p>
+      <form id="extractForm" class="extract-form">
+        <input type="url" id="urlInput" placeholder="https://ejemplo.com/producto" required>
+        <button type="submit" class="btn" id="extractBtn">Extraer características</button>
+      </form>
+      <p class="status" id="extractStatus"></p>
+
+      <div class="review-card" id="reviewCard" hidden>
+        <h3>Revisa antes de guardar</h3>
+        <div class="review-grid">
+          <div class="review-image">
+            <img id="previewImage" alt="Vista previa del producto" src="">
+            <p class="no-image" id="noImageNote" hidden>Sin imagen detectada</p>
+          </div>
+          <div class="review-fields">
+            <label>Nombre
+              <input type="text" id="fieldName">
+            </label>
+            <label>Descripción
+              <textarea id="fieldDescription" rows="3"></textarea>
+            </label>
+            <div class="field-row">
+              <label>Precio (€)
+                <input type="number" id="fieldPrice" step="0.01" min="0">
+              </label>
+              <label>Categoría
+                <select id="fieldCategory">
+                  <option>Especialidad gallega</option>
+                  <option>Tapas y raciones</option>
+                  <option>De la brasa</option>
+                  <option>Postres</option>
+                  <option>Bebidas</option>
+                  <option>Otros</option>
+                </select>
+              </label>
+            </div>
+            <label>URL de la imagen
+              <input type="url" id="fieldImage">
+            </label>
+            <p class="source-note" id="sourceNote"></p>
+            <button type="button" class="btn" id="saveBtn">Guardar en la carta</button>
+            <p class="status" id="saveStatus"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Carta actual</h2>
+      <p class="hint">Estos son los platos guardados. Los cambios se reflejan en la web pública si tiene el backend conectado.</p>
+      <div id="menuList" class="menu-list"></div>
+    </section>
+  </main>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

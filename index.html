@@ -11,7 +11,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<!-- Si despliegas el backend de server/, pon aquí su URL (ej. data-api-base="https://api.cafelisardo.com")
+     para que la carta se cargue dinámicamente desde el panel de admin. Vacío = usa el contenido estático de abajo. -->
+<body data-api-base="">
 
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
@@ -219,5 +221,6 @@
 </footer>
 
 <script src="assets/js/script.js"></script>
+<script src="assets/js/menu-loader.js"></script>
 </body>
 </html>

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "seed-1",
+    "name": "Pulpo a la gallega",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Especialidad gallega",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-2",
+    "name": "Almejas a la marinera",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Especialidad gallega",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-3",
+    "name": "Mejillones al vapor",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Especialidad gallega",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-4",
+    "name": "Navajas a la plancha",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Especialidad gallega",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-5",
+    "name": "Sepia a la plancha",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Especialidad gallega",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-6",
+    "name": "Zamburiñas gratinadas",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Especialidad gallega",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-7",
+    "name": "Patatas bravas",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Tapas y raciones",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-8",
+    "name": "Pimientos de Padrón",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Tapas y raciones",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-9",
+    "name": "Croquetas caseras",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Tapas y raciones",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-10",
+    "name": "Calamares a la romana",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Tapas y raciones",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-11",
+    "name": "Jamón ibérico",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Tapas y raciones",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-12",
+    "name": "Pan con tomate",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Tapas y raciones",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-13",
+    "name": "Entrecot a la brasa",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "De la brasa",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-14",
+    "name": "Chuletillas de cordero",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "De la brasa",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-15",
+    "name": "Secreto ibérico",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "De la brasa",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-16",
+    "name": "Carrilleras estofadas",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "De la brasa",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-17",
+    "name": "Butifarra a la brasa",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "De la brasa",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-18",
+    "name": "Tarta de queso casera",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Postres",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-19",
+    "name": "Filloas gallegas",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Postres",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-20",
+    "name": "Crema catalana",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Postres",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-21",
+    "name": "Helados variados",
+    "description": "",
+    "price": null,
+    "image": null,
+    "category": "Postres",
+    "sourceUrl": null,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  }
+]
